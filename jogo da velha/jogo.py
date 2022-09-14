@@ -1,5 +1,5 @@
 matriz = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
-def mapaDasPosições():
+def mapaDasPosicoes():
     print("~" * 30)
     print(f'{"JOGO DA VELHA":^30}')
     print("~" * 30)
@@ -64,7 +64,7 @@ def temGanhador(tabuleiro, simb): #verifica se tem ganhador
 
 def main(): #jogo
     
-    mapaDasPosições()
+    mapaDasPosicoes()
     cont = 0
     while True:
         jogada = int(input('Sua jogada: '))
